@@ -1,5 +1,5 @@
 {
-  "name": "pragmatic typings",
+  "name": "eslint-slides",
   "type": "module",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "0.48.3",
+    "@slidev/cli": "0.49.11",
     "@slidev/theme-default": "latest",
     "vue": "^3.4.21",
     "slidev-theme-wordman": "latest",

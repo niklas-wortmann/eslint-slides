@@ -55,6 +55,11 @@ layout: introduction
 ---
 
 ---
+layout: image
+image: /kcdc24_sponsorslide.jpeg
+---
+
+---
 transition: view-transitition
 ---
 

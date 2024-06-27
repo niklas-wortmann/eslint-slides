@@ -17,7 +17,7 @@ transition: slide-left
 favicon: ./favicon.png
 ---
 
-<div class="flex items-center justify-center h-full w-full flex-col">
+<div class="flex items-center justify-center h-full w-full flex-col text-shadow text-white">
     <h1 class="text-8xl! text-shadow text-shadow-lg">Enhancing Code Quality and Velocity with ESLint</h1>
     <h2 class="text-6xl! text-shadow text-shadow-lg">A Practical Approach </h2>
 </div>
@@ -143,7 +143,7 @@ layout: center
 
 # Community and Ecosystem
 
-<span class="text-4xl text-red">INSERT COMMUNITY PACKAGES </span>
+<span class="text-4xl text-red">Your Library could Go Here</span>
 
 ---
 layout: center
@@ -483,5 +483,5 @@ export function antfu(
 
 ---
 layout: outro
-url: https://wordman.dev/talk/2024/kcjs
+url: https://wordman.dev/talk/2024/eslint-kcdc
 ---

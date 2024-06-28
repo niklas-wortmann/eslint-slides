@@ -159,13 +159,13 @@ layout: center
 transition: view-transition
 ---
 
-<h1 style="view-transition-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
+<h1 style="view-transition-name: eslint-version"> ESLint v9.6.0 is out 🎉 </h1>
 
 ---
 transition: view-transition
 ---
 
-<h1 style="view-transition-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
+<h1 style="view-transition-name: eslint-version"> ESLint v9.6.0 is out 🎉 </h1>
 
 <ul v-motion v-motion-slide-top>
     <li>Externalize Formatter</li>
@@ -514,7 +514,7 @@ export default withNuxt(
 ---
 
 
-<img src="eslint-config-inspector.png">
+<img src="/eslint-config-inspector.png">
 
 ---
 ---

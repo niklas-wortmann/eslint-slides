@@ -143,29 +143,29 @@ layout: center
 
 # Community and Ecosystem
 
-<span class="text-4xl text-red">Your Library could Go Here</span>
+<div class="w-full flex h-90 items-center justify-center">
+    <span class="text-4xl text-red">Your Library could Go Here</span>
+</div>
 
 ---
 layout: center
 transition: view-transition
 ---
 
-<h1 style="view-tranistion-name: 'eslint-version'"> ESLint v9.0.0 is out 🎉 </h1>
+<h1 style="view-transition-name: 'eslint-version'"> ESLint v9.0.0 is out 🎉 </h1>
 
 ---
 layout: center
 transition: view-transition
 ---
 
-<h1 style="view-tranistion-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
+<h1 style="view-transition-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
 
 ---
 transition: view-transition
-preload: false
 ---
 
-[//]: # (fix transition)
-<h1 style="view-tranistion-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
+<h1 style="view-transition-name: eslint-version"> ESLint v9.5.0 is out 🎉 </h1>
 
 <ul v-motion v-motion-slide-top>
     <li>Externalize Formatter</li>
@@ -476,10 +476,61 @@ export function antfu(
 
 # Nuxt EsLint Config
 
+````md magic-move
+```sh
+pnpm add -D @nuxt/eslint eslint
+```
+
+```ts
+export default defineNuxtConfig({
+  modules: [
+    '@nuxt/eslint'
+  ],
+  eslint: {
+    // options here
+  }
+})
+```
+
+```js
+import withNuxt from './.nuxt/eslint.config.mjs'
+
+export default withNuxt(
+  // your custom flat configs go here, for example:
+  // {
+  //   files: ['**/*.ts', '**/*.tsx'],
+  //   rules: {
+  //     'no-console': 'off' // allow console.log in TypeScript files
+  //   }
+  // },
+  // {
+  //   ...
+  // }
+)
+```
+````
+
 ---
 ---
 
-# Qodana
+
+<img src="eslint-config-inspector.png">
+
+---
+---
+
+<a href="https://www.jetbrains.com/qodana/">
+    <img src="/qodana.png" class="absolute top-0 left-0 z-20">
+</a>
+
+---
+---
+
+# Appreciate the Feedback
+
+<div class="flex w-full items-center justify-center h-100">
+    <qrcode value='https://forms.gle/ScAYEtzXba8zNCCv8' />
+</div>
 
 ---
 layout: outro
